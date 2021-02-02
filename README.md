@@ -1,11 +1,11 @@
 # Fluentd
-### Exemple config files with parse regex
+### Exemple config files
 
 **Output rundeck.execution.log:**
 
 [2021-02-02 11:55:41,826] user_run finish [28469895:succeeded] GROUP user_run/- "Monit/PDBD0084"[ec156e3b-41fc-44fd-b83e-746acbea4b0c]
 
-**Format with fluentd to Logstash:**
+**Format fluentd with parse regex to Logstash:**
 ```
 <source>
   @type tail
