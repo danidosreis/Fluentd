@@ -1,5 +1,5 @@
 # Fluentd
-### Exemple config files with parser regex
+### Exemple config files with parse regex
 
 **Output rundeck.execution.log:**
 
